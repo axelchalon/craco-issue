@@ -1,0 +1,25 @@
+{
+  "name": "craco-issue",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/electron-builder",
+      "**/electron-builder/**",
+      "**/electron-webpack",
+      "**/electron-webpack/**"
+    ]
+  },
+  "engines": {
+    "node": ">=10.10.0",
+    "yarn": "^1.4.2"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
+}

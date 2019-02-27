@@ -1,0 +1,22 @@
+{
+  "name": "sample-package",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "craco build --react-scripts ../../node_modules/react-scripts",
+    "start": "craco start --react-scripts ../../node_modules/react-scripts",
+    "test": "craco test --react-scripts ../../node_modules/react-scripts"
+  },
+  "dependencies": {
+    "@craco/craco": "^3.3.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "^2.1.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
